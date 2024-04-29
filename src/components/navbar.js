@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import logos from "../assets/images/logos.png";
+import digiplusalliancelogo from "../assets/images/digiplusalliancelogo.png";
 // import Button from "react-bootstrap/Button";
 // import Offcanvas from "react-bootstrap/Offcanvas";
 // import Container from "react-bootstrap/Container";
@@ -19,20 +19,20 @@ const NavBar = (props) => {
   return (
     <>
       <div className="container-fluid NavBar">
-        <div className="d-flex ">
+        <div className="d-flex">
           <Link to="/">
             <img
-              src=""
-              //   src={logos}
+              // src=""
+              src={digiplusalliancelogo}
               alt=""
-              width={60}
-              height={70}
+              // width={60}
+              // height={70}
               className="me-4 mt-2"
             />
           </Link>
           <div className="d-flex align-items-center">
             {" "}
-            <h5>DigiPlus Alliance</h5>
+            {/* <h5>DigiPlus Alliance</h5> */}
           </div>
         </div>
       </div>
